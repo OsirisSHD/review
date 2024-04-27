@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Review</title>
+    <script src="add_review.js"></script>
+</head>
+<body>
+    <h1>Добавление отзывов</h1>
+    <form id="addReviewForm">
+        <label for="productName">Продукт:</label><br>
+        <input type="text" id="productName" name="productName"><br>
+        <label for="reviewText">Отзыв:</label><br>
+        <textarea id="reviewText" name="reviewText"></textarea><br>
+        <button type="submit">Добавить отзыв</button>
+    </form>
+    <a href="view_reviews.html">Перейти на страницу отзывов</a>
+    <div id="error" style="color: red;"></div>
+</body>
+</html>
